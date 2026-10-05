@@ -1,0 +1,101 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color:white;
+  color-scheme:dark;
+}
+body{
+	background-color:#131220;
+}
+section{
+	height:70%;
+	margin-top:10px;
+}
+.float{
+	float:left;
+}
+.border{
+	border:1px solid black;
+	border-radius:20px;
+}
+.main-container{
+	height:110vh;
+	width:98vw;
+	margin:8px;
+	padding:0px 20px;
+}
+.box1{
+	height:350px;
+	width:99.5%;
+	margin-top:20px;
+}
+.btn-grad {
+background: conic-gradient(from 10deg, #8d868a 0.000deg, #8d868a 24.000deg, #80818a calc(24.000deg + 0.1deg), #80818a 48.000deg, #737b89 calc(48.000deg + 0.1deg), #737b89 72.000deg, #667589 calc(72.000deg + 0.1deg), #667589 96.000deg, #596e87 calc(96.000deg + 0.1deg), #596e87 120.000deg, #4c6785 calc(120.000deg + 0.1deg), #4c6785 144.000deg, #406082 calc(144.000deg + 0.1deg), #406082 168.000deg, #34587f calc(168.000deg + 0.1deg), #34587f 192.000deg, #2a507c calc(192.000deg + 0.1deg), #2a507c 216.000deg, #224877 calc(216.000deg + 0.1deg), #224877 240.000deg, #1b4073 calc(240.000deg + 0.1deg), #1b4073 264.000deg, #15386e calc(264.000deg + 0.1deg), #15386e 288.000deg, #123068 calc(288.000deg + 0.1deg), #123068 312.000deg, #112862 calc(312.000deg + 0.1deg), #112862 336.000deg, #11215b calc(336.000deg + 0.1deg) 360.000deg);
+
+
+}
+.btn-grad {
+  margin-bottom:30px;
+  padding: 15px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 5px #eee;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+  border: none;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+h1{
+	font-family: "Libre Caslon Condensed", serif;
+	font-optical-sizing: auto;
+	font-weight: <auto>;
+	font-style: normal;
+	margin:30px 15px;
+	font-size:50px;
+	font-weight:500px;	
+}
+.box2{
+	background-color:#F9F9F9;
+	box-shadow:0px 0px 15px #1E3A8A;
+	height:405px;
+	width:280px;
+	margin:25px 5.6px;
+	text-align:center;
+	
+}
+.box2 img{
+	border-radius:20px 20px 0px 0px;
+	height:190px;
+}
+.box2 h2{
+	color:black;
+	margin:15px 0px;
+	font-weight:800;
+}
+.box2 p{
+	font-weight:500;
+	margin:20px 10px;
+	color: #333333;
+}
+.box2 a{
+	font-weight:500;
+	text-decoration:none;
+	color:#1E3A8A;
+}
+iframe{
+	background-image:url(https://img.magnific.com/premium-vector/world-map-with-country-name-as-country-shape-black-background_32550-224.jpg?semt=ais_hybrid&w=740&q=80);
+}
